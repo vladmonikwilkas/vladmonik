@@ -109,3 +109,14 @@ footer {
     font-size: 14px;
     color: #555;
 }
+
+.gallery-section {
+    text-align: center;
+}
+
+.gallery-intro {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    font-style: italic;
+}

@@ -3,31 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Тестовый сайт</title>
+    <title>Галерея — Мои картины</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать!</h1>
+        <h1>Моя галерея</h1>
         <nav>
-            <a href="#home">Главная</a>
+            <a href="index.html">Главная</a>
             <a href="gallery.html">Галерея</a>
-            <a href="#about">О нас</a>
-            <a href="#contact">Контакты</a>
+            <a href="index.html#about">О нас</a>
+            <a href="index.html#contact">Контакты</a>
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Главная страница</h2>
-            <p>Это простой тестовый сайт.</p>
-            <button id="greetBtn">Нажми меня</button>
-            <p id="greeting"></p>
-        </section>
-
-        <section id="gallery">
-            <h2>Мои картины</h2>
-            <p>Добро пожаловать в мою галерею!</p>
+        <section class="gallery-section">
+            <h2>Добро пожаловать в мою галерею!</h2>
+            <p class="gallery-intro">Здесь представлены мои картины. Надеюсь, они вам понравятся!</p>
+            
             <div class="gallery">
                 <div class="gallery-item">
                     <img src="images/1771421042385-019c70eb-9883-7970-889a-e0e05d8fc897.png" alt="Замок зимой">
@@ -43,20 +37,10 @@
                 </div>
             </div>
         </section>
-
-        <section id="about">
-            <h2>О нас</h2>
-            <p>Сайт создан для тестирования.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Контакты</h2>
-            <p>Email: test@example.com</p>
-        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Тестовый сайт</p>
+        <p>&copy; 2026 Моя галерея</p>
     </footer>
 
     <script src="script.js"></script>
